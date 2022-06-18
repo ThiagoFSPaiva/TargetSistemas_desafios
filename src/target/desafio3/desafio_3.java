@@ -35,12 +35,13 @@ public class desafio_3 {
             System.out.println("O menor é: " + resultadoMin);
 
 
-            System.out.println(Arrays.asList(data).stream()
+            Double media = Arrays.asList(data).stream()
                     .mapToDouble(Faturamento::getValor)
                     .filter(valor -> valor != 0.0)
                     .average()
-                    .getAsDouble());
+                    .getAsDouble();
 
+            System.out.println("A media é: " + media);
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();

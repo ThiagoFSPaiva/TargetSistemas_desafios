@@ -3,14 +3,12 @@ package target.desafio5;
 public class desafio_5 {
     public static void main(String[] args) {
 
-        System.out.println(reverseString("Cuidado"));
-        System.out.println(reverseString("A target sistema e fera!"));
-
-
+        System.out.println(inverterString("Cuidado"));
+        System.out.println(inverterString("A target sistema e fera!"));
 
     }
 
-    public static String reverseString(String s) {
+    public static String inverterString(String s) {
 
         String inverter = "";
 

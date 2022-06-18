@@ -21,7 +21,6 @@ public class desafio_2 {
             numero2 = numero - numero2;
             sequencia.add(numero2);
         }
-        System.out.println(sequencia);
         if (sequencia.contains(entrada)){
             System.out.println("O número pertence a seuquencia!");
         }else{
